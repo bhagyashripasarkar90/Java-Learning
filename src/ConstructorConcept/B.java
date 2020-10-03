@@ -4,6 +4,7 @@ public class B extends A {
 
 	public B() {
 		super(10, 20);
+		System.out.println("Checking conflict for feature2");
 		System.out.println("child class");
 	}
 
